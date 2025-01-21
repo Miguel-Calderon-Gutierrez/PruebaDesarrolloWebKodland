@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pop It</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__logo">
+          <a
+            href="https://miguel-calderon-gutierrez.github.io/Portafolio/"
+            class="header__link"
+            >Miguel_Calderon</a
+          >
+        </div>
+        <button class="header__toggle" aria-label="Abrir menú">
+          <span class="header__toggle-bar"></span>
+          <span class="header__toggle-bar"></span>
+          <span class="header__toggle-bar"></span>
+        </button>
+        <nav class="header__nav">
+          <a href="#" class="header__link">SOBRE NOSOTROS</a>
+          <a href="#" class="header__link">DESCUENTOS</a>
+          <a href="#" class="header__link">CONTACTO</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero__container">
+          <h1 class="hero__title">¡POP IT!</h1>
+          <p class="hero__subtitle">
+            ¡El mejor juguete antiestrés: burbujas infinitas!
+          </p>
+          <div class="hero__image">
+            <img
+              src="/images/images/paleta.png"
+              alt="Pop It"
+              class="hero__img"
+            />
+          </div>
+          <button class="button hero__button compra">COMPRAR</button>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container about__container">
+          <h2 class="about__title">¿Qué es el Pop It?</h2>
+          <p class="about__text">
+            Pop It se traduce literalmente como "revienta esto". Es un juego
+            infantil cuyo proceso puede compararse con reventar burbujas de
+            plástico de embalaje. Pero a diferencia del plástico, el Pop It se
+            puede presionar una y otra vez con las mismas sensaciones y sonidos
+            “infinitos”: decenas de burbujas de silicona simplemente se empujan
+            hacia el otro lado.
+          </p>
+        </div>
+      </section>
+
+      <section class="products">
+        <div class="container products__container">
+          <h2 class="products__title">¡Elige tu Pop-It!</h2>
+          <div class="products__list">
+            <div class="product-card">
+              <img
+                src="/images/images/square.png"
+                alt="Pop It Cuadrado"
+                class="product-card__image"
+              />
+              <p class="product-card__name">Cuadrado multicolor</p>
+              <button class="button product-card__button compra">COMPRAR</button>
+            </div>
+            <div class="product-card">
+              <img
+                src="/images/images/amongus.png"
+                alt="Pop It Among Us"
+                class="product-card__image"
+              />
+              <p class="product-card__name">Among Us, mármol</p>
+              <button class="button product-card__button compra">COMPRAR</button>
+            </div>
+            <div class="product-card">
+              <img
+                src="/images/images/round.png"
+                alt="Pop It Redondo"
+                class="product-card__image"
+              />
+              <p class="product-card__name">Redondo multicolor</p>
+              <button class="button product-card__button compra">COMPRAR</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="rules">
+        <div class="container rules__container">
+          <h2 class="rules__title">Reglas del juego</h2>
+          <p class="rules__text">
+            Los jugadores se turnan para presionar las burbujas. Es obligatorio
+            terminar la fila que comenzaron. Solo se pueden presionar un máximo
+            de 3 burbujas al mismo tiempo (deben estar juntas; no se pueden
+            presionar varias burbujas si no están juntas). ¡El objetivo es hacer
+            que tu oponente sea el último en jugar! ¡Quien haga el último
+            movimiento pierde!
+          </p>
+          <img
+            src="/images/images/photo.jpg"
+            alt="Reglas del juego Pop It"
+            class="rules__image"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <nav class="footer__nav">
+          <a href="#" class="footer__link">Métodos de pago</a>
+          <a href="#" class="footer__link">Envíos</a>
+          <a href="#" class="footer__link">Mayoristas</a>
+          <a href="#" class="footer__link">Contacto</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
